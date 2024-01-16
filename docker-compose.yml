@@ -18,8 +18,7 @@ services:
       - db
     links:
       - db
-    command: rails s -b 0.0.0.0
-
+      
   db:
     image: postgres
     environment:
